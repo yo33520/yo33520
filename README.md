@@ -8,378 +8,410 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Installez des panneaux photovoltaïques pour économiser sur vos factures d'énergie et réduire votre empreinte carbone. Demandez votre devis gratuit !">
+    <title>Panneaux Photovoltaïques - Économisez sur vos Factures</title>
 
-    <title>Devis Photovoltaïque Gratuit - Économisez dès Aujourd'hui</title>
-
-    <style>
-
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-        * {
-
-            margin: 0;
-
-            padding: 0;
-
-            box-sizing: border-box;
-
-            font-family: 'Roboto', sans-serif;
-
-        }
-
-        body {
-
-            background-color: #f0f4f8;
-
-            color: #333;
-
-        }
-
-        header {
-
-            background: linear-gradient(90deg, #2a9d8f, #264653);
-
-            color: #fff;
-
-            padding: 2em;
-
-            text-align: center;
-
-        }
-
-        header h1 {
-
-            font-size: 2.8em;
-
-            font-weight: 700;
-
-        }
-
-        header p {
-
-            font-size: 1.2em;
-
-            margin-top: 0.5em;
-
-        }
-
-        .btn-primary {
-
-            background: #e76f51;
-
-            color: #fff;
-
-            padding: 1em 2em;
-
-            text-decoration: none;
-
-            border-radius: 5px;
-
-            font-weight: bold;
-
-            display: inline-block;
-
-            margin-top: 1.5em;
-
-            transition: background 0.3s;
-
-        }
-
-        .btn-primary:hover {
-
-            background: #d35d47;
-
-        }
-
-        .container {
-
-            width: 90%;
-
-            max-width: 1200px;
-
-            margin: 0 auto;
-
-            padding: 2em 0;
-
-        }
-
-        .section {
-
-            margin-bottom: 2em;
-
-            padding: 2em;
-
-            background: #fff;
-
-            border-radius: 8px;
-
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-        }
-
-        h2 {
-
-            font-size: 2em;
-
-            color: #264653;
-
-            margin-bottom: 0.5em;
-
-            font-weight: 700;
-
-            text-align: center;
-
-        }
-
-        .benefits, .testimonials {
-
-            display: flex;
-
-            flex-wrap: wrap;
-
-            gap: 2em;
-
-            justify-content: center;
-
-        }
-
-        .benefit-item, .testimonial-item {
-
-            flex: 1 1 300px;
-
-            text-align: center;
-
-            padding: 1.5em;
-
-            background: #f9f9f9;
-
-            border-radius: 8px;
-
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-
-        }
-
-        .benefit-item h3, .testimonial-item h3 {
-
-            font-size: 1.4em;
-
-            color: #e76f51;
-
-            margin-bottom: 0.5em;
-
-        }
-
-        .contact-form label {
-
-            display: block;
-
-            margin-bottom: 0.5em;
-
-            font-weight: bold;
-
-            color: #264653;
-
-        }
-
-        .contact-form input, .contact-form textarea {
-
-            width: 100%;
-
-            padding: 0.8em;
-
-            margin-bottom: 1em;
-
-            border: 1px solid #ccc;
-
-            border-radius: 5px;
-
-        }
-
-        .contact-form button {
-
-            width: 100%;
-
-            background: #2a9d8f;
-
-            color: #fff;
-
-            padding: 1em;
-
-            border: none;
-
-            border-radius: 5px;
-
-            font-size: 1.2em;
-
-            cursor: pointer;
-
-            transition: background 0.3s;
-
-        }
-
-        .contact-form button:hover {
-
-            background: #238e79;
-
-        }
-
-        footer {
-
-            background: #264653;
-
-            color: #fff;
-
-            text-align: center;
-
-            padding: 1.5em 0;
-
-            margin-top: 2em;
-
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-
-
-    <!-- Header Section -->
+    <!-- En-tête -->
 
     <header>
 
-        <h1>Passez aux Énergies Solaires</h1>
+        <div class="container">
 
-        <p>Économisez sur vos factures d'énergie tout en réduisant votre empreinte carbone. Obtenez votre devis gratuit !</p>
+            <h1>Nom de l'Entreprise</h1>
 
-        <a href="#contact" class="btn-primary">Demandez un Devis Gratuit</a>
+            <p>Contactez-nous : 01 23 45 67 89</p>
+
+        </div>
 
     </header>
 
 
 
-    <div class="container">
+    <!-- Section Héro -->
 
-        
+    <section class="hero">
 
-        <!-- Benefits Section -->
+        <div class="container">
 
-        <section class="section benefits">
+            <h2>Passez à l’énergie solaire et réduisez vos factures jusqu’à 70 % !</h2>
 
-            <h2>Les Avantages des Panneaux Photovoltaïques</h2>
+            <p>Profitez de solutions photovoltaïques clé en main, adaptées à vos besoins, pour des économies durables.</p>
 
-            <div class="benefit-item">
+            <a href="#contact" class="cta-button">Obtenez votre devis gratuit</a>
 
-                <h3>Réduction des Coûts</h3>
+        </div>
 
-                <p>Profitez d'économies sur vos factures d'électricité dès le premier jour.</p>
-
-            </div>
-
-            <div class="benefit-item">
-
-                <h3>Énergie Verte</h3>
-
-                <p>Réduisez votre impact environnemental en utilisant une énergie propre et renouvelable.</p>
-
-            </div>
-
-            <div class="benefit-item">
-
-                <h3>Valorisation de votre Bien</h3>
-
-                <p>Augmentez la valeur de votre propriété avec des installations éco-responsables.</p>
-
-            </div>
-
-        </section>
+    </section>
 
 
 
-        <!-- Testimonials Section -->
+    <!-- Section Avantages -->
 
-        <section class="section testimonials">
+    <section class="benefits">
 
-            <h2>Ce que Disent Nos Clients</h2>
+        <div class="container">
 
-            <div class="testimonial-item">
+            <h3>Pourquoi choisir l'énergie solaire ?</h3>
 
-                <h3>Marie D.</h3>
+            <div class="benefit-items">
 
-                <p>"Depuis l'installation de mes panneaux, mes factures ont baissé de 40% et je suis fière de contribuer à un futur durable."</p>
+                <div class="benefit-item">
 
-            </div>
+                    <h4>Réduction de vos factures</h4>
 
-            <div class="testimonial-item">
+                    <p>Jusqu’à 70 % d’économie d’énergie.</p>
 
-                <h3>Lucas B.</h3>
+                </div>
 
-                <p>"L'équipe a été professionnelle et l'installation rapide. J'ai déjà recommandé leurs services à mes voisins."</p>
+                <div class="benefit-item">
+
+                    <h4>Écologique et durable</h4>
+
+                    <p>Une énergie propre, sans émissions de CO2.</p>
+
+                </div>
+
+                <div class="benefit-item">
+
+                    <h4>Valorisation immobilière</h4>
+
+                    <p>Augmentez la valeur de votre maison.</p>
+
+                </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
 
-        <!-- Contact Form Section -->
+    <!-- Section Témoignages -->
 
-        <section id="contact" class="section contact-form">
+    <section class="testimonials">
 
-            <h2>Contactez-nous pour un Devis Gratuit</h2>
+        <div class="container">
 
-            <p>Remplissez le formulaire ci-dessous pour recevoir un devis gratuit et personnalisé sur nos installations photovoltaïques.</p>
+            <h3>Nos clients sont convaincus</h3>
+
+            <p>“Depuis l’installation, ma facture d’électricité a diminué de moitié ! Merci pour ce service clé en main et pour vos conseils.” - Sophie M., Lyon</p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Section Fonctionnement -->
+
+    <section class="how-it-works">
+
+        <div class="container">
+
+            <h3>Comment ça marche ?</h3>
+
+            <div class="steps">
+
+                <div class="step">Étude de faisabilité gratuite</div>
+
+                <div class="step">Devis personnalisé</div>
+
+                <div class="step">Installation rapide</div>
+
+                <div class="step">Suivi et maintenance</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Section Formulaire de Contact -->
+
+    <section id="contact" class="contact">
+
+        <div class="container">
+
+            <h3>Recevez votre étude gratuite et personnalisée</h3>
 
             <form>
 
-                <label for="name">Nom</label>
+                <input type="text" placeholder="Prénom et Nom" required>
 
-                <input type="text" id="name" name="name" required>
+                <input type="email" placeholder="Email" required>
 
-                
+                <input type="tel" placeholder="Numéro de téléphone" required>
 
-                <label for="email">Email</label>
+                <input type="text" placeholder="Adresse" required>
 
-                <input type="email" id="email" name="email" required>
-
-                
-
-                <label for="phone">Téléphone</label>
-
-                <input type="tel" id="phone" name="phone" required>
-
-                
-
-                <label for="message">Message</label>
-
-                <textarea id="message" name="message" rows="4" placeholder="Décrivez vos besoins..." required></textarea>
-
-                
-
-                <button type="submit">Envoyer la Demande</button>
+                <button type="submit">Je veux mon devis gratuit</button>
 
             </form>
 
-        </section>
+        </div>
+
+    </section>
 
 
 
-    </div>
-
-
-
-    <!-- Footer Section -->
+    <!-- Pied de page -->
 
     <footer>
 
-        <p>&copy; 2024 Énergies Solaires. Tous droits réservés.</p>
+        <div class="container">
+
+            <p>&copy; 2024 Nom de l'Entreprise | Mentions légales | Politique de confidentialité</p>
+
+        </div>
 
     </footer>
-
-
 
 </body>
 
 </html>
+
+
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+}
+
+
+
+.container {
+
+    width: 80%;
+
+    margin: auto;
+
+    max-width: 1200px;
+
+}
+
+
+
+header {
+
+    background: #333;
+
+    color: #fff;
+
+    padding: 1em 0;
+
+    text-align: center;
+
+}
+
+
+
+.hero {
+
+    background: url('solar-panels.jpg') no-repeat center center/cover;
+
+    color: #fff;
+
+    padding: 5em 0;
+
+    text-align: center;
+
+}
+
+
+
+.hero h2 {
+
+    font-size: 2.5em;
+
+    margin-bottom: 0.5em;
+
+}
+
+
+
+.cta-button {
+
+    display: inline-block;
+
+    padding: 0.8em 1.5em;
+
+    color: #fff;
+
+    background-color: #ff6600;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    margin-top: 1em;
+
+}
+
+
+
+.benefits {
+
+    padding: 3em 0;
+
+    background-color: #f9f9f9;
+
+}
+
+
+
+.benefit-items {
+
+    display: flex;
+
+    gap: 1em;
+
+    justify-content: space-around;
+
+    text-align: center;
+
+}
+
+
+
+.benefit-item h4 {
+
+    color: #ff6600;
+
+    margin-bottom: 0.5em;
+
+}
+
+
+
+.testimonials {
+
+    background-color: #333;
+
+    color: #fff;
+
+    padding: 2em 0;
+
+    text-align: center;
+
+}
+
+
+
+.how-it-works {
+
+    padding: 3em 0;
+
+    text-align: center;
+
+}
+
+
+
+.steps {
+
+    display: flex;
+
+    gap: 1em;
+
+    justify-content: space-around;
+
+}
+
+
+
+.step {
+
+    background-color: #eaeaea;
+
+    padding: 1.5em;
+
+    border-radius: 5px;
+
+    width: 23%;
+
+}
+
+
+
+.contact {
+
+    padding: 3em 0;
+
+    text-align: center;
+
+    background-color: #f9f9f9;
+
+}
+
+
+
+form input, form button {
+
+    width: 100%;
+
+    padding: 1em;
+
+    margin-bottom: 1em;
+
+    border-radius: 5px;
+
+    border: 1px solid #ddd;
+
+}
+
+
+
+form button {
+
+    background-color: #ff6600;
+
+    color: #fff;
+
+    font-size: 1em;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+
+footer {
+
+    background: #333;
+
+    color: #fff;
+
+    padding: 1em 0;
+
+    text-align: center;
+
+    font-size: 0.9em;
+
+}
